@@ -3,7 +3,7 @@ import profilePic from "./profile-pic.jfif";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
-import nitk from "./nitk.png";
+import estacio from "./estacio.jpg";
 import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import ecell from "./ecell.png";
@@ -22,7 +22,7 @@ import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
 import mjv from "./mjv.jpg";
 import devfolio from "./devfolio.png";
-import pba from "./pba_logo.jpeg";
+import tamwood from "./tamwood.jpg";
 import ethglobal from "./ethglobal.png";
 import polkadot from "./polkadot.jpeg";
 import lightspeed from "./lightspeed.png";
@@ -33,12 +33,13 @@ import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
 import engesoftware from "./engesoftware.jfif";
 import ssalogo from "./ssalogo.jfif";
+import vgc from "./vgc.jpg";
 
 export {
   menu,
   close,
   arrowUp,
-  nitk,
+  estacio,
   cluboard,
   cash_flow,
   gdsc,
@@ -59,7 +60,7 @@ export {
   greentrust,
   mjv,
   devfolio,
-  pba,
+  tamwood,
   ethglobal,
   polkadot,
   lightspeed,
@@ -69,5 +70,6 @@ export {
   ethforall,
   ethindia,
   engesoftware,
-  ssalogo
+  ssalogo,
+  vgc
 };

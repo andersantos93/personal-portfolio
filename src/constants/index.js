@@ -1,5 +1,5 @@
 import {
-  nitk,
+  estacio,
   cluboard,
   cash_flow,
   gdsc,
@@ -15,11 +15,12 @@ import {
   greentrust,
   mjv,
   devfolio,
-  pba,
+  tamwood,
   ethindia,
   jhe,
   engesoftware,
-  ssalogo
+  ssalogo,
+  vgc
 } from "../assets";
 
 import {
@@ -129,20 +130,27 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    icon: tamwood,
+    title: "Tamwood International College, Canada",
+    degree: "Diploma in Web Development",
+    duration: "November 2024 - current",
+    content1: "",
   },
   {
     id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    icon: vgc,
+    title: "VGC International College, Canada",
+    degree: "Global English Program",
+    duration: "November 2022 - December 2022",
+    content1: "",
+  },
+  {
+    id: "education-3",
+    icon: estacio,
+    title: "Centro Universitário Estácio de Sá, Brazil",
+    degree: "Bachelor's Degree in Information Systems",
+    duration: "February 2012 - May 2018",
+    content1: "",
   },
 ];
 
