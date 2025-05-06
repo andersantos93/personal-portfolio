@@ -1,5 +1,5 @@
-import parthmittal from "./parth.svg";
-import profilePic from "./profile-pic.jpg";
+import andersonsantos from "./anderson.svg";
+import profilePic from "./profile-pic.jfif";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
@@ -44,7 +44,7 @@ export {
   genesis,
   portfolio,
   cdc,
-  parthmittal,
+  andersonsantos,
   profilePic,
   chargeswap,
   placeicon,
