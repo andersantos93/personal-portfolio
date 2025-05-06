@@ -8,7 +8,8 @@ import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import ecell from "./ecell.png";
 import gdsc from "./gdsc.png";
-import iris from "./iris.png";
+import triad from "./triad.webp";
+import jhe from "./jhe.png";
 import genesis from "./genesis.jpg";
 import portfolio from "./portfolio.jpg";
 import cdc from "./cdc.png";
@@ -16,10 +17,10 @@ import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
-import oracle from "./oracle.jpg";
+import first from "./first.png";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
-import averlon from "./averlon.jpg";
+import mjv from "./mjv.jpg";
 import devfolio from "./devfolio.png";
 import pba from "./pba_logo.jpeg";
 import ethglobal from "./ethglobal.png";
@@ -30,6 +31,8 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
+import engesoftware from "./engesoftware.jfif";
+import ssalogo from "./ssalogo.jfif";
 
 export {
   menu,
@@ -39,7 +42,8 @@ export {
   cluboard,
   cash_flow,
   gdsc,
-  iris,
+  triad,
+  jhe,
   ecell,
   genesis,
   portfolio,
@@ -50,10 +54,10 @@ export {
   placeicon,
   recruitment,
   huntly,
-  oracle,
+  first,
   comicify_ai,
   greentrust,
-  averlon,
+  mjv,
   devfolio,
   pba,
   ethglobal,
@@ -63,5 +67,7 @@ export {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  engesoftware,
+  ssalogo
 };

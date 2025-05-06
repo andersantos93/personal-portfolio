@@ -3,37 +3,29 @@ import {
   cluboard,
   cash_flow,
   gdsc,
-  iris,
-  ecell,
-  genesis,
+  triad,
   portfolio,
   cdc,
   chargeswap,
   placeicon,
   recruitment,
   huntly,
-  oracle,
+  first,
   comicify_ai,
   greentrust,
-  averlon,
+  mjv,
   devfolio,
   pba,
-  ethglobal,
-  polkadot,
-  lightspeed,
-  dennisivy,
-  manipal,
-  icon,
-  ethforall,
-  ethindia
+  ethindia,
+  jhe,
+  engesoftware,
+  ssalogo
 } from "../assets";
 
 import {
   AiFillGithub,
-  AiFillInstagram,
   AiFillLinkedin,
   AiFillMail,
-  AiOutlineTwitter,
   AiFillHtml5,
   AiOutlineGitlab,
 } from "react-icons/ai";
@@ -44,10 +36,7 @@ import {
   SiBootstrap,
   SiReact,
   SiTailwindcss,
-  SiGraphql,
   SiPython,
-  SiCplusplus,
-  SiC,
   SiRubyonrails,
   SiJquery,
   SiVisualstudiocode,
@@ -96,16 +85,11 @@ import {
 
 import {
   FaHardHat,
-  FaRust
 } from "react-icons/fa";
 
 import {
   IoIosNotificationsOutline
 } from "react-icons/io";
-
-import {
-  FaGolang
-} from "react-icons/fa6";
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
@@ -395,30 +379,24 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    organisation: "F1rst Digital Services",
+    logo: first,
+    link: "https://www.f1rst.com.br/first/#/",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Front End Engineer",
+        duration: "October 2021 - October 2024",
         content: [
           {
-            text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+            text: " Developed a new banking web application focused on investment using the concept of Angular micro-frontends, reducing complexity and enabling the application to be broken into smaller, more manageable pieces for improved implementation and maintenance.",
             link: "",
           },
           {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
+            text: "Developed and maintained unit tests using Jasmine and Karma in an Angular application to ensure code reliability, improve test coverage, and support test-driven development (TDD).",
+            link: ""
+          },
+          {
+            text: "Managed and reviewed merge requests, ensuring code quality, compliance with development standards, and seamless integration into the main codebase.",
             link: ""
           }
         ],
@@ -426,20 +404,28 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
+    organisation: "MJV Technology & Innovation",
+    logo: mjv,
+    link: "https://www.mjvinnovation.com/",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "Front End Engineer",
+        duration: "April 2021 - October 2021",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
+            text: "Developed a dynamic registration system using Angular, incorporating reusable components and intuitive user interfaces to capture potential investor client data, ensuring compliance with new regulations and keeping the company aligned with updated policies.",
             link: ""
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+            text: "Implemented Google Analytics tagging across web applications to track user interactions and key performance metrics, enabling data-driven decisions and enhancing user experience through actionable insights.",
+            link: ""
+          },
+          {
+            text: "Collaborated in agile development workflows, leveraging Git for version control, participating in code reviews, and contributing to CI/CD deployment pipelines using Jenkins.",
+            link: ""
+          },
+          {
+            text: "Collaborated with the Design System team to fix bugs and develop new interface functionalities.",
             link: ""
           }
         ],
@@ -447,54 +433,103 @@ export const experiences = [
     ],
   },
   {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+    organisation: "Triad Systems",
+    logo: triad,
+    link: "https://triadintegration.com.br/",
     positions: [
       {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
+        title: "Full Stack Developer",
+        duration: "February 2020 - April 2021",
         content: [
           {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
+            text: "Developed and maintained a telecommunications web application using AngularJS on the frontend and PHP and Node.js on the backend; built RESTful APIs to support frontend features, ensuring secure data transmission and improving system performance and efficiency.",
             link: "",
           },
           {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
+            text: "Worked with relational databases such as MySQL and SQL Server to design, optimize, and manage schemas; implemented efficient queries and ensured data integrity for web applications.",
             link: "",
           },
         ],
-      },
+      }
+    ],
+  },
+  {
+    organisation: "JHE Engenharia",
+    logo: jhe,
+    link: "https://www.jhe.com.br/",
+    positions: [
       {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
+        title: "Full Stack Developer",
+        duration: "October 2017 - February 2020",
         content: [
           {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
+            text: "Developed and managed external web applications for the public sector, focusing on housing and urban development, as well as basic sanitation in São Paulo.",
+            link: "",
+          },
+          {
+            text: "Developed and managed a non-native app for collecting data on university infrastructure buildings, including pictures and reports, to facilitate improvement planning.",
+            link: "",
+          },
+          {
+            text: "Led the verification of requirements analysis and gathering to collaboratively plan the best practices and technologies with the team.",
             link: "",
           },
         ],
-      },
+      }
+    ],
+  },
+  {
+    organisation: "Engesoftware Tecnologia S.A",
+    logo: engesoftware,
+    link: "https://www.linkedin.com/company/engesoftware/about/",
+    positions: [
       {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
+        title: "Full Stack Developer",
+        duration: "August 2016 - August 2017",
         content: [
           {
-            text: "Added Conditional Fields support to the Forms Module.",
+            text: "Developed and maintained legacy web applications using the Yii PHP Framework.",
+            link: "",
+          },
+          {
+            text: "Resolved numerous complex bugs by adhering to coding best practices, including principles such as Clean Code and Design Patterns.",
+            link: "",
+          },
+          {
+            text: "Developed a new web system for collecting public servant data, designed to be updated annually.",
+            link: "",
+          },
+          {
+            text: " Managed relational databases in MySQL and Oracle, responsible for creating complex queries to optimize query performance.",
             link: "",
           },
         ],
-      },
+      }
+    ],
+  },
+  {
+    organisation: "Prefeitura de Salvador",
+    logo: ssalogo,
+    link: "https://www.linkedin.com/company/engesoftware/about/",
+    positions: [
       {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
+        title: "Full Stack Developer",
+        duration: "December 2015 - August 2016",
         content: [
           {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "Worked as a Web Developer, managing a legacy project focused on registering new demands for the City Hall and enhancing email alert notifications upon demand creation.",
+            link: "",
+          },
+          {
+            text: "Contributed to the development of a contract management system for the Salvador City Hall in Brazil, leveraging the Laravel framework.",
+            link: "",
+          },
+          {
+            text: "Collaborated with a team of 8 software engineers on both legacy and new projects, focusing on feature creation and bug fixes.",
             link: "",
           },
         ],
-      },
+      }
     ],
   }
 ];
