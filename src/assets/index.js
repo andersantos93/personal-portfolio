@@ -13,12 +13,14 @@ import jhe from "./jhe.png";
 import genesis from "./genesis.jpg";
 import portfolio from "./portfolio.jpg";
 import cdc from "./cdc.png";
-import chargeswap from "./chargeswap.png";
+import threads from "./threads.jpeg";
+import instagram from "./instagram.jpeg";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
 import first from "./first.png";
-import comicify_ai from "./comicify-ai.png";
+import personaljournal from "./personal-journal.jpeg";
+import expensetracker from "./expense-tracker.png";
 import greentrust from "./green_trust.png";
 import mjv from "./mjv.jpg";
 import devfolio from "./devfolio.png";
@@ -51,12 +53,14 @@ export {
   cdc,
   andersonsantos,
   profilePic,
-  chargeswap,
+  threads,
+  instagram,
   placeicon,
   recruitment,
   huntly,
   first,
-  comicify_ai,
+  personaljournal,
+  expensetracker,
   greentrust,
   mjv,
   devfolio,
