@@ -768,7 +768,13 @@ export const aboutMe = {
     name: "Anderson Santos",
     githubUsername: 'andersantos93',
     tagLine: "Software Developer | React | Vue.js | Angular | Typescript | JavaScript | PHP",
-    intro: "Software Developer with a strong track record of designing and developing web applications."
+    intro: [
+      "Software Developer with a strong track record of designing and developing web applications.",
+      "Over the past few years, I've led full-stack projects from concept to launch, focusing on building scalable, high-performance applications that deliver real value to users.",
+      "I enjoy working with modern JavaScript frameworks like Angular, React, and Vue, and I'm just as comfortable diving into backend development with tools like Node.js, PHP, and Django. Whether I'm designing micro-frontends for a banking app or building RESTful APIs, I always aim for clean, efficient code and smooth user experiences.",
+      "Collaboration is a big part of my process. I've worked closely with design teams, participated in agile environments, and contributed to CI/CD workflows. Currently, I'm based in Canada, continuing to grow my skills through hands-on experience and formal training.",
+      "Let's build something great together."
+    ]
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
